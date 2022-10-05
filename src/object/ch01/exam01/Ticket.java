@@ -1,4 +1,4 @@
-package object.ch01;
+package object.ch01.exam01;
 
 public class Ticket {
     private Long fee;
