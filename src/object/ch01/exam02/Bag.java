@@ -1,4 +1,4 @@
-package object.ch01;
+package object.ch01.exam02;
 
 public class Bag {
     private Long amount;
