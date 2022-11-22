@@ -1,9 +1,8 @@
 package head_first_design_pattern.ch03decorator;
 
 public class DarkRoast extends Beverage {
-    public DarkRoast(Size size) {
+    public DarkRoast() {
         this.description = "다크 로스트";
-        this.size = size;
     }
 
     @Override
