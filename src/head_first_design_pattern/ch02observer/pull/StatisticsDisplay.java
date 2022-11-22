@@ -1,4 +1,4 @@
-package head_first_design_pattern.ch02observer;
+package head_first_design_pattern.ch02observer.pull;
 
 import java.util.*;
 
@@ -20,8 +20,8 @@ public class StatisticsDisplay implements Observer, DisplayElement {
     }
 
     @Override
-    public void update(float temp, float humidity, float pressure) {
-        this.temperature.add(temp);
+    public void update() {
+        this.temperature.add(weatherData.getTemperature());
         display();
     }
     
