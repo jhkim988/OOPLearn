@@ -18,4 +18,9 @@ public abstract class Beverage {
     public Size getSize() {
         return this.size;
     }
+
+    @Override
+    public String toString() {
+        return this.getDescription() + " $" + this.cost();
+    }
 }
