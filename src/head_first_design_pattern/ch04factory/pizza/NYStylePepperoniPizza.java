@@ -1,4 +1,4 @@
-package head_first_design_pattern.ch04factory;
+package head_first_design_pattern.ch04factory.pizza;
 
 public class NYStylePepperoniPizza extends Pizza {
 

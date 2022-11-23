@@ -1,4 +1,6 @@
-package head_first_design_pattern.ch04factory;
+package head_first_design_pattern.ch04factory.pizzastore;
+
+import head_first_design_pattern.ch04factory.pizza.Pizza;
 
 public abstract class PizzaStore {
     
