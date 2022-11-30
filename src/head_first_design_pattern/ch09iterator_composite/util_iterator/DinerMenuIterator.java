@@ -1,8 +1,8 @@
-package head_first_design_pattern.ch09iterator.util_iterator;
+package head_first_design_pattern.ch09iterator_composite.util_iterator;
 
 import java.util.Iterator;
 
-import head_first_design_pattern.ch09iterator.MenuItem;
+import head_first_design_pattern.ch09iterator_composite.MenuItem;
 
 public class DinerMenuIterator implements Iterator<MenuItem> {
     MenuItem[] items;
