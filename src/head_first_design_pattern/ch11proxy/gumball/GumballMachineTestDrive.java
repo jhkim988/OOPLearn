@@ -1,5 +1,7 @@
 package head_first_design_pattern.ch11proxy.gumball;
 
+import java.rmi.Naming;
+
 public class GumballMachineTestDrive {
     
     public static void main(String[] args) {
@@ -10,11 +12,12 @@ public class GumballMachineTestDrive {
             System.exit(1);
         }
 
-        count = Integer.parseInt(args[1]);
-        GumballMachine gumballMachine = new GumballMachine(args[0], count);
-        GumballMonitor monitor = new GumballMonitor(gumballMachine);
-        
-        monitor.report();
+        try {
+            count = Integer.parseInt(args[1]);
+            GumballMachine gumballMachine = new GumballMachine(args[0], count);
+            Naming.rebind(args[0] + "/gumballmachine", gumballMachine);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-
 }
