@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiniDuckSimulator",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch01strategy.MiniDuckSimulator",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherStation",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch02observer.WeatherStation",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeatherStation(1)",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch02observer.pull.WeatherStation",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cafe",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch03decorator.Cafe",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch PizzaTestDriver",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch04factory.PizzaTestDriver",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonClient",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch05singleton.SingletonClient",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoteControlTest",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch06command.RemoteControlTest",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuckTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch07adapter_facade.adapter.DuckTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeverageTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch08template.BeverageTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch09iterator_composite.MenuTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch GumballMachineTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch10state.GumballMachineTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatchMakingTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch11proxy.dating.MatchMakingTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch GumballMachineTestDrive(1)",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch11proxy.gumball.GumballMachineTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch GumballMonitorTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch11proxy.gumball.GumballMonitorTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyRemoteClient",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch11proxy.rmi.MyRemoteClient",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyRemoteImpl",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch11proxy.rmi.MyRemoteImpl",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuckSimulator",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch12mvc.application.DuckSimulator",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "oop_fact_and_misunderstanding.ch07.Main",
+            "projectName": "OOPLearn_9c9d8ce2"
+        }
+    ]
+}
