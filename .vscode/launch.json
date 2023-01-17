@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DJTestDrive",
+            "request": "launch",
+            "mainClass": "head_first_design_pattern.ch12mvc.mvc.DJTestDrive",
+            "projectName": "OOPLearn_9c9d8ce2"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

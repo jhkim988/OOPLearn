@@ -30,7 +30,7 @@ public class BeatModel implements BeatModelInterface, Runnable {
     @Override
     public void on() {
         bpm = 90;
-        // notifyBPMObservers();
+        notifyBPMObservers();
         thread = new Thread(this);
         stop = false;
         thread.start();
@@ -45,14 +45,26 @@ public class BeatModel implements BeatModelInterface, Runnable {
     @Override
     public void run() {
         while (!stop) {
-            // playBeat();
-            // notifyBeatObservers();
+            playBeat();
+            notifyBeatObservers();
             try {
                 Thread.sleep(60_000/getBPM());
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }        
+    }
+
+    public void notifyBPMObservers() {
+        bpmObservers.forEach(observer -> observer.update());
+    }
+
+    public void notifyBeatObservers() {
+        beatObservers.forEach(observer -> observer.update());
+    }
+
+    public void playBeat() {
+        
     }
 
     @Override
